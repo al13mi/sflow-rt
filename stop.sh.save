@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo 'Finalizar sFlow'
+pkill -f 'java.*sflowrt'
+
